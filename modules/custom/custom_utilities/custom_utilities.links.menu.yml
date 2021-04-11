@@ -1,0 +1,6 @@
+contract.admin_settings_form:  
+  title: 'Custom Admin configuration'  
+  route_name: contract.admin_settings_form  
+  description: 'All Custom admin configurations'  
+  parent: system.admin_config_system  
+  weight: 99  

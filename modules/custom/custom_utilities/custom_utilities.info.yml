@@ -1,0 +1,6 @@
+# Package info
+type: module
+name: Custom Utilities
+description: Custom Utilities for custom Features.
+core_version_requirement: ^9
+

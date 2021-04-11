@@ -1,0 +1,16 @@
+demo_module.list:
+  path: '/createTask'
+  defaults:
+      _controller: '\Drupal\custom_utilities\Controller\CustomController::createTask'
+      _title: 'Demo'
+  requirements:
+      _permission: 'access content'
+contract.admin_settings_form:  
+  path: '/admin/config/contract/adminsettings'  
+  defaults:  
+    _form: '\Drupal\custom_utilities\Form\CustomAdminForm'  
+    _title: 'Custom Admin Settings Form'  
+  requirements:  
+    _permission: 'access administration pages'  
+  options:  
+    _admin_route: TRUE   

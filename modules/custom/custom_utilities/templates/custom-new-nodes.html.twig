@@ -1,0 +1,15 @@
+<div class="row">
+	{% if report_rows %}
+		<div class="col-md-12">
+			<ul>
+			{% for node in report_rows%}
+				<li><a href="/node/{{node.nid}}" target="_blank">{{node.title}}</a></li>			
+			{% endfor %}
+			</ul>	
+		</div>			
+	{% else %}
+		<div class="col-md-12">
+			No nodes are available
+		</div>
+	{% endif %}
+</div>		
